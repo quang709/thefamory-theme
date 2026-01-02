@@ -3825,3 +3825,11 @@ div[style*="Powered by ParcelPanel"] {
     bottom: 1.8rem;
   }
 }
+/* --- FINAL AVATAR ALIGNMENT FIX --- */
+.header__icon--account shop-user-avatar {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 22px !important;
+  height: 22px !important;
+}
