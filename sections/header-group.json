@@ -1,0 +1,83 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "announcement_bar_btkpY6": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_Q7h3Xy": {
+          "type": "announcement",
+          "settings": {
+            "text": "🔥Christmas Deal: Get 20% with code XMAS20!🔥",
+            "link": "shopify://collections/ornament"
+          }
+        }
+      },
+      "block_order": [
+        "announcement_Q7h3Xy"
+      ],
+      "name": "t:sections.announcement-bar.presets.name",
+      "settings": {
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "color_scheme": "",
+        "show_line_separator": true,
+        "show_social": false,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "mega_menu_image_tYXRaM": {
+          "type": "mega_menu_image",
+          "settings": {
+            "menu_item": "🛍️-our-products",
+            "featured_product": "cool-favorite-baseball-player-calls-me-dad-father-s-day-2024-unisex-t-shirt-for-adult-kids"
+          }
+        },
+        "mega_menu_image_cQqRFy": {
+          "type": "mega_menu_image",
+          "settings": {
+            "menu_item": "🎁-recipients",
+            "featured_product": "christian-christmas-ornament-for-women-or-men-religious-ornaments-for-christmas-tree"
+          }
+        }
+      },
+      "block_order": [
+        "mega_menu_image_tYXRaM",
+        "mega_menu_image_cQqRFy"
+      ],
+      "settings": {
+        "logo_position": "top-left",
+        "mobile_logo_position": "center",
+        "menu": "mega-menu",
+        "menu_type_desktop": "mega",
+        "sticky_header_type": "reduce-logo-size",
+        "show_line_separator": false,
+        "color_scheme": "scheme-1",
+        "menu_color_scheme": "scheme-1",
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "enable_customer_avatar": true,
+        "margin_bottom": 0,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    }
+  },
+  "order": [
+    "announcement_bar_btkpY6",
+    "header"
+  ]
+}

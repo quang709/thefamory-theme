@@ -1,0 +1,379 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "category_slider_J8mJwq": {
+      "type": "category-slider",
+      "blocks": {
+        "category_tFQPq7": {
+          "type": "category",
+          "settings": {
+            "image": "shopify://shop_images/Cruise-Squad-2024-Summer-Vacation-Matching-Family-Group-T-Shirt-6.jpg",
+            "title": "2D T-Shirt",
+            "link": "shopify://collections/2d-t-shirt"
+          }
+        },
+        "category_R6UihK": {
+          "type": "category",
+          "settings": {
+            "image": "shopify://shop_images/334-1-700x714.png",
+            "title": "Baseball",
+            "link": "shopify://collections/t-shirt"
+          }
+        },
+        "category_8AhxFB": {
+          "type": "category",
+          "settings": {
+            "image": "shopify://shop_images/WTBB-104-Nursery-Blankets-for-Birthday-or-Holiday-2.jpg",
+            "title": "Blanket",
+            "link": "shopify://collections/blanket"
+          }
+        },
+        "category_84Dxf4": {
+          "type": "category",
+          "settings": {
+            "image": "shopify://shop_images/B6o-179-BestFriendOrnament5.jpg",
+            "title": "Best Friends",
+            "link": "shopify://collections/best-friends"
+          }
+        },
+        "category_KB6mzB": {
+          "type": "category",
+          "settings": {
+            "image": "shopify://shop_images/C1o-134-ReligiousOrnaments6.jpg",
+            "title": "Ornament",
+            "link": "shopify://collections/ornament"
+          }
+        },
+        "category_EdaALg": {
+          "type": "category",
+          "settings": {
+            "image": "shopify://shop_images/NH2o-54-HeartShapedCustomOrnamentsforCouplesNewlyweds6.jpg",
+            "title": "Couples",
+            "link": "shopify://collections/couples"
+          }
+        }
+      },
+      "block_order": [
+        "category_tFQPq7",
+        "category_R6UihK",
+        "category_8AhxFB",
+        "category_84Dxf4",
+        "category_KB6mzB",
+        "category_EdaALg"
+      ],
+      "name": "Category Slider",
+      "settings": {}
+    },
+    "image_banner_hUYTBA": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_LirFtF": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Summer Vibes</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_KcK7DE": {
+          "type": "text",
+          "settings": {
+            "text": "This summer’s gonna be fun. These picks are all you need to kick it off.",
+            "text_style": "body"
+          }
+        },
+        "buttons_zY4wzL": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Now",
+            "button_link_1": "shopify://collections/2d-t-shirt",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_LirFtF",
+        "text_KcK7DE",
+        "buttons_zY4wzL"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "width_style": "container",
+        "image": "shopify://shop_images/summer_homepage_desktop_1361c59a-ae52-4f4a-ab29-27a39b0a6c38_1.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-left",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "scheme-e504d11c-66a3-460a-bdb9-5f1b47602fc6",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "custom_liquid_TJPgzi": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_banner_WiR9Vz": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "width_style": "container",
+        "image": "shopify://shop_images/2000X500_1.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "all",
+        "products_to_show": 8,
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_xMQnPk": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_A4JtqG": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "text_MkeCHw": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_QgBg3W": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_A4JtqG",
+        "text_MkeCHw",
+        "buttons_QgBg3W"
+      ],
+      "disabled": true,
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "width_style": "container",
+        "image": "shopify://shop_images/Web_Banner-9_1400x_7551e289-df70-49c5-a1be-c3f4c8315e8e.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-1",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "image_with_text_BWiwVW": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_iFhkNw": {
+          "type": "heading",
+          "settings": {
+            "heading": "About Us",
+            "heading_size": "h1"
+          }
+        },
+        "text_nyxhQi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>TheFamory.com is a creative U.S.-based apparel brand specializing in high-quality Print-on-Demand T-shirts. We focus on unique, expressive, and meaningful designs that help customers showcase their personality with confidence and comfort.<br/><br/></p>",
+            "text_style": "body"
+          }
+        },
+        "button_fLa6bj": {
+          "type": "button",
+          "settings": {
+            "button_label": "View More",
+            "button_link": "shopify://pages/about-us",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_iFhkNw",
+        "text_nyxhQi",
+        "button_fLa6bj"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Black_and_Green_Modern_T-Shirt_Fashion_Instagram_Post_1.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collection_list_PFmY6z": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_dRFrcQ": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ornament"
+          }
+        },
+        "featured_collection_xdrbay": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "2d-t-shirt"
+          }
+        },
+        "featured_collection_zeLceQ": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "t-shirt"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_dRFrcQ",
+        "featured_collection_xdrbay",
+        "featured_collection_zeLceQ"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_7Kjeg7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_w9Thmb": {
+          "type": "heading",
+          "settings": {
+            "heading": "Contact Us",
+            "heading_size": "h1"
+          }
+        },
+        "text_PBA6Dq": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>WE WANT TO HEAR FROM YOU…</strong><br/>Our priority is to provide you with the exceptional service kids expect from a<strong> Thefamory</strong>. Your feedback is very important to us.</p><p>Please note that <strong>https://thefamory.com</strong> does not use your email for advertising purposes or disclose it to third parties.</p><p>Please be sure to include in any email or postal mail request your full name, email address, mailing address, and any messages.</p><p>Please note that requests to remove from our marketing lists can take up to 12 days to take effect.</p><p>Email our team anytime at: <strong>[MAIL]</strong></p><p>Address: <strong>[ADDRESS_US]</strong><br/>📲Phone: <strong>+1 (646) 504-2404</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_w9Thmb",
+        "text_PBA6Dq"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "contact_form_Aca3qE": {
+      "type": "contact-form",
+      "name": "t:sections.contact-form.presets.name",
+      "settings": {
+        "heading": "Contact form",
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "category_slider_J8mJwq",
+    "image_banner_hUYTBA",
+    "custom_liquid_TJPgzi",
+    "image_banner_WiR9Vz",
+    "featured_collection",
+    "image_banner_xMQnPk",
+    "image_with_text_BWiwVW",
+    "collection_list_PFmY6z",
+    "rich_text_7Kjeg7",
+    "contact_form_Aca3qE"
+  ]
+}

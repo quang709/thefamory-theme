@@ -1,0 +1,6 @@
+{% assign parsed_content = content %}
+{% assign parsed_content = parsed_content | replace: '[MAIL]', shop.metafields.custom.email %}
+{% assign parsed_content = parsed_content | replace: '[ADDRESS_US]', shop.metafields.custom.address_us %}
+{% assign parsed_content = parsed_content | replace: '[ADDRESS_VN]', shop.metafields.custom.address_vn %}
+
+{{ parsed_content }}

@@ -1,0 +1,129 @@
+/* ===== WRAPPER ===== */
+.category-slider-wrapper {
+    padding: 24px 0;
+    /* giảm padding để mobile không đè */
+    width: 100%;
+    overflow: hidden;
+}
+
+/* ===== SWIPER ===== */
+.swiper-wrapper {
+    align-items: center;
+}
+
+/* ===== SLIDE ===== */
+.category-slide {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* @media (min-width: 1025px) {
+    .category-slide {
+        width: 220px;
+    }
+} */
+
+/* ===== ITEM ===== */
+.category-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    /* padding: 0 8px; */
+    text-decoration: none;
+    /* width: 220px; */
+}
+
+/* ===== IMAGE ===== */
+.category-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #e5e5e5;
+    overflow: hidden;
+}
+
+.category-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ===== TITLE ===== */
+.category-title {
+    font-family: 'Poppins', var(--font-body-family), sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    /* margin: 0; */
+    max-width: 200px;
+}
+
+/* ===== ARROWS ===== */
+.swiper-button-next,
+.swiper-button-prev {
+    color: #000 !important;
+    background: #fff;
+    width: 44px !important;
+    height: 44px !important;
+    border-radius: 50%;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, .15);
+    border: 1px solid #e5e5e5;
+    position: absolute !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    z-index: 10 !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    font-size: 18px !important;
+    font-weight: bold;
+}
+
+/* ===== MOBILE FIX ===== */
+@media (width: 1024px) {
+    .category-image {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (width: 768px) {
+    .category-image {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 749px) {
+    /* .category-slider-wrapper {
+        padding: 16px 0;
+    } */
+
+    .category-image {
+        width: 120px;
+        height: 120px;
+    }
+
+    .category-title {
+        font-size: 14px;
+        max-width: 120px;
+    }
+
+
+    .swiper {
+        padding: 28px;
+    }
+}
+
+@media (width: 375px) {
+    .category-image {
+        width: 100px;
+        height: 100px;
+    }
+}

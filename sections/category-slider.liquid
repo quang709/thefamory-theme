@@ -1,0 +1,59 @@
+{% comment %} Category Slider Section {% endcomment %}
+
+<div class="category-slider-wrapper page-width">
+  <div class="category-slider swiper">
+    <div class="swiper-wrapper">
+      {% for block in section.blocks %}
+        <div class="swiper-slide category-slide" {{ block.shopify_attributes }}>
+          <a href="{{ block.settings.link }}" class="category-item">
+            {% if block.settings.image %}
+              <div class="category-image">
+                {{ block.settings.image | image_url: width: 200 | image_tag: loading: 'lazy', alt: block.settings.title }}
+              </div>
+            {% endif %}
+            <h3 class="category-title">{{ block.settings.title }}</h3>
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+    
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Category Slider",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "category",
+      "name": "Category",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Category Name"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Category Slider"
+    }
+  ]
+}
+{% endschema %}

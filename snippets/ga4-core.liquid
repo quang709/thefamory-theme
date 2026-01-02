@@ -1,0 +1,15 @@
+<script>
+window.dataLayer = window.dataLayer || [];
+
+// Helper function để push GA4 ecommerce event chuẩn
+function pushGA4Event(eventName, ecommerceData) {
+  window.dataLayer.push({ ecommerce: null }); // Clear previous ecommerce
+  window.dataLayer.push({
+    event: eventName,
+    ecommerce: ecommerceData
+  });
+}
+
+// Global product data helper (dùng chung)
+window.shopifyAnalytics = window.shopifyAnalytics || {};
+</script>
