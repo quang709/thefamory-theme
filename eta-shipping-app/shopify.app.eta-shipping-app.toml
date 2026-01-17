@@ -1,0 +1,27 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "09c982cf9c3387266ecd8fc86dc6d0c2"
+name = "eta-shipping-app"
+application_url = "https://eta-shipping-app-empty-sun-1109.fly.dev"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "famory-dev.myshopify.com"
+
+[webhooks]
+api_version = "2026-04"
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "read_metaobject_definitions,read_metaobjects,write_metaobject_definitions,write_metaobjects,write_products"
+
+[auth]
+redirect_urls = [
+  "https://eta-shipping-app-empty-sun-1109.fly.dev/auth/callback",
+  "https://eta-shipping-app-empty-sun-1109.fly.dev/auth/shopify/callback",
+  "https://eta-shipping-app-empty-sun-1109.fly.dev/api/auth/callback"
+]
+
+[pos]
+embedded = false
